@@ -1,12 +1,16 @@
 import React from 'react';
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs } from 'react-icons/fa';
 // import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+// import { FaSomeIcon } from 'react-icons/fa';
+
 import "./about.css";
+
 
 const About = () => {
     return (
         <div>
             <h1 className="about">About</h1>
+            {/* <FaSomeIcon/> */}
             <h3>🌟 Passionate Web Developer Creating Engaging Experiences🌟</h3>
             <div className="box2" id="box2">
                 <h1 className="h-about">About</h1>
