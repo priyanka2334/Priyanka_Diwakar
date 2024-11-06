@@ -31,10 +31,9 @@ function Home() {
         <h2 className="header-subtitle">
         Welcome to my portfolio! This site, built with React, showcases my work as a web developer. I specialize in creating visually appealing and user-friendly
         </h2>
-        <button className='Resumebtn'><a href="https://drive.google.com/file/d/1VvZvWAEZXzc8vO8VqOY5KJIjuzgTZv68/view?usp=drive_link">Resume</a></button>
+        <button className='Resumebtn'><a href="https://drive.google.com/file/d/1tZr6KPdOJToHUGpTMfMQ1uRdLHW1PIdb/view?usp=drive_link">Resume</a></button>
       </div>
     </div>
   );
 }
-
 export default Home;
