@@ -40,7 +40,9 @@ import menuImage from '../images/Menu.png'; // Update path as needed
 import eCommerceImage from '../images/book.png'
 import ticTacToeImage from '../images/tic_tac_toe.png';
 import calculatorImage from '../images/caculator.png';
-
+import Movie from '../images/movie.png';
+import Country from '../images/country.png';
+ 
 const projectsData = [
   {
     name: "Food-Website",
@@ -70,6 +72,21 @@ const projectsData = [
     link: "https://food-resturant-m5lg.vercel.app/",
     tags: ["HTML", "CSS", "JavaScript"]
   },
+  {
+    name: "Movie-Website",
+    description: "In a movie website, there is a wishlist functionality and a search bar. If I search for 'horror,' it will show horror movies, and if I search for 'comedy,' it will show comedy movies. In one search, it will display only 20 movies.",
+    image: Movie,
+    link: "https://movie-app-gray-ten.vercel.app/apipage",
+    tags: ["HTML", "CSS", "ReactJS"]
+  },
+  {
+    name: "Country-Website",
+    description: "country website allows users to search for countries by name or category and add their favorite countries to a wishlist. It uses HTML for structure, CSS for styling, and JavaScript for interactive search and wishlist functionality.",
+    image: Country,
+    link: "https://country-project-psi.vercel.app/",
+    tags: ["HTML", "CSS", "JavaScript"]
+  },
+  
 ];
 
 
